@@ -4,7 +4,7 @@
 
 	<div class="row">
 	
-		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-3">
+		<div class="col-xs-3">
 		
 		<!-- ROW START -->
 		<?php include (STYLESHEETPATH . '/_/inc/dashboard/dashboard-panel-links.php'); ?>
@@ -12,7 +12,7 @@
 
 		</div>
 		
-		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-9">
+		<div class="col-xs-9">
 
 		<!-- ROW START -->
 		<?php include (STYLESHEETPATH . '/_/inc/dashboard/dashboard-panels.php'); ?>

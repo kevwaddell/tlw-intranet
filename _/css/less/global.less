@@ -25,11 +25,7 @@ min-width: 100%;
 -webkit-tap-highlight-color: transparent;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
-.font-size(1.4);
-
-	@media (min-width: @screen-lg) {
-	.font-size(1.6);
-	}
+.font-size(1.6);
 }
 
 a {
@@ -50,8 +46,10 @@ overflow: auto;
 
 	.content-wrap {
 	.min-h(60);
-	.min-w(100);	
-	.pad(4; 0; 4; 0);
+	.min-w(117);
+	.pad-top(4);
+	.pad-bot(4);	
+	//.pad(4; 0; 4; 0);
 	}
 
 	&.side-nav-closed {

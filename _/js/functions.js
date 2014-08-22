@@ -14,8 +14,6 @@
 
 	$('body').on(event_type,'button#nav-btn', function(e){
 	
-		console.log($(this));
-	
 		$('.side-nav').toggleClass( 'nav-open nav-closed');
 		$('.content').toggleClass( 'side-nav-open side-nav-closed');
 	     	     			

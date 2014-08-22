@@ -3,7 +3,7 @@
 	<div class="col-lg-12">
 			
 		<div class="dash-panel col-red">
-			<h2 class="panel-head">Latest News from TLW<i class="fa fa-rss fa-2x"></i></h2>
+			<h2 class="panel-head">Latest News and Events from TLW<i class="fa fa-rss fa-2x"></i></h2>
 			
 			<div class="panel-content">
 			<?php include (STYLESHEETPATH . '/_/inc/dashboard/news-panel/latest-news-panel.php'); ?>

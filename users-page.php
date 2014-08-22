@@ -15,7 +15,7 @@ $query 		= get_users('&offset='.$offset.'&number='.$number);
 $total_users = count($users);
 $total_query = count($query);
 $total_pages = intval($total_users / $number) + 1;
-echo '<pre>';print_r($users);echo '</pre>';
+//echo '<pre>';print_r($users);echo '</pre>';
 ?>
 
 <?php if ($total_users > 0) { ?>
